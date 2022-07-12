@@ -3,7 +3,7 @@
 int FineBiggerDigit()
 {
     int rand = new Random().Next(10, 100);
-    Console.WriteLine("Current random number is " + rund);
+    Console.WriteLine("Current random number is " + rand);
 
     int dec = rand / 10;
     int ed = rand % 10;
