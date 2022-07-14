@@ -48,7 +48,7 @@ Multiple(n1,n2);*/
 Console.Write("Input number: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
-void TrueFalse()
+void TrueFalse(int number1)
 {
     if(number1 % 7 == 0 && number1 % 23 == 0)
     {
@@ -60,4 +60,4 @@ void TrueFalse()
     }
 }
 
-TrueFalse();
+TrueFalse(number1);
