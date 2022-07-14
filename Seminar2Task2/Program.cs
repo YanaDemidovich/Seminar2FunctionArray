@@ -42,8 +42,22 @@ double n2 = Convert.ToInt32(Console.ReadLine());
 Multiple(n1,n2);*/
 
 
-
-
 // Задача 4. Написать программу, которая принимает на вход число и проверяет кратно ли оно 7-ми и 23-м. 
 // (Делать через bool)
 
+Console.Write("Input number: ");
+int rand = Convert.ToInt32(Console.ReadLine());
+
+void TrueFalse()
+{
+    if(rand % 7 == 0 && rand % 23 == 0)
+    {
+    Console.WriteLine(rand + " кратно 7-ми и 23-м");
+    }
+    else
+    {
+    Console.WriteLine(rand + " не кратно 7-ми и 23-м");
+    }
+}
+
+TrueFalse();
