@@ -17,7 +17,7 @@ Console.WriteLine(num + " вторая цифра числа " + n1);*/
 // Задача 13: Напишите программу, которая выводит третью цифру
 // заданного числа или сообщает, что третьей цифры нет.
 
-void FindThirdDigit()
+/*void FindThirdDigit()
 {
     
     int rand = new Random().Next();
@@ -36,6 +36,23 @@ void FindThirdDigit()
      
      }
      Console.WriteLine("Третья цифра данного числа = " + third);    
+    }
+}
+FindThirdDigit();*/
+// или другой вариант решения
+
+void FindThirdDigit()
+{
+    
+    int rand = new Random().Next();
+    Console.WriteLine("Заданное число = " + rand);
+    if (rand < 100)
+    {
+        Console.WriteLine("У числа нет третьей цифры");
+    }
+    else
+    {
+        Console.WriteLine("Третья цифра данного числа = " + rand.ToString()[2]);  
     }
 }
 FindThirdDigit();
