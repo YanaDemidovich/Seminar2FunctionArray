@@ -1,6 +1,6 @@
 ﻿//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-/*Console.Write("Input number: ");
+Console.Write("Input number: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
 
 int Extract(int n1)
@@ -12,7 +12,7 @@ return number;
 }
 
 int num = Extract(n1);
-Console.WriteLine(num + " вторая цифра числа " + n1);*/
+Console.WriteLine(num + " вторая цифра числа " + n1);
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
