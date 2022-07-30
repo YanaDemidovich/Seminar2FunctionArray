@@ -1,7 +1,7 @@
 ﻿// Задача2. Необходимо написать программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа. 
 // И как результат выводит двузначное число. 
 
-int Number()
+/*int Number()
 {
     int rand = new Random().Next(100, 1000);
     Console.WriteLine("Current random number is " + rand);
@@ -21,7 +21,7 @@ Console.WriteLine("Result " + num); */
 // Если не кратно, то выводит остаток от деление. (Делать через void).
 
 
-/*void Multiple(double n1, double n2)
+void Multiple(double n1, double n2)
 {
     if(n2 % n1 == 0)
     {
