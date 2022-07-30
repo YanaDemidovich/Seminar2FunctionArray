@@ -1,7 +1,7 @@
 ﻿// Задача2. Необходимо написать программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа. 
 // И как результат выводит двузначное число. 
 
-/* int Number()
+int Number()
 {
     int rand = new Random().Next(100, 1000);
     Console.WriteLine("Current random number is " + rand);
@@ -39,13 +39,13 @@ double n1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input second number: ");
 double n2 = Convert.ToInt32(Console.ReadLine());
 
-Multiple(n1,n2);*/
+Multiple(n1,n2);
 
 
 // Задача 4. Написать программу, которая принимает на вход число и проверяет кратно ли оно 7-ми и 23-м. 
 // (Делать через bool)
 
-Console.Write("Input number: ");
+/*Console.Write("Input number: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
 void TrueFalse(int number1)
@@ -60,4 +60,4 @@ void TrueFalse(int number1)
     }
 }
 
-TrueFalse(number1);
+TrueFalse(number1);*/
