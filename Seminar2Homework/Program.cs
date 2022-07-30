@@ -1,6 +1,6 @@
 ﻿//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
-Console.Write("Input number: ");
+/*Console.Write("Input number: ");
 int n1 = Convert.ToInt32(Console.ReadLine());
 
 int Extract(int n1)
@@ -12,29 +12,32 @@ return number;
 }
 
 int num = Extract(n1);
-Console.WriteLine(num + " вторая цифра числа " + n1);
+Console.WriteLine(num + " вторая цифра числа " + n1);*/
 
 // Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-/*int n1 = new Random().Next(1000, 10000); // честно признаюсь, это уловка)))
-Console.WriteLine("Случайное число " + n1);
-
-void ExtractFalse(int n1)
+void FindThirdDigit()
 {
-    if (n1 < 99)
+    
+    int rand = new Random().Next();
+    Console.WriteLine("Заданное число = " + rand);
+    if (rand < 100)
     {
-    Console.WriteLine("Третьей цифры нет");
+        Console.WriteLine("У числа нет третьей цифры");
     }
     else
-    {
-    int ed = n1 / 10;
-    int dec = n1 / 100;
-    int num = ed - dec * 10;
-    Console.WriteLine("Третья цифра " + num);
+    {    
+        int third = 0;
+        while (rand > 99)
+     {
+         third = rand % 10;
+         rand = rand / 10;
+     
+     }
+     Console.WriteLine("Третья цифра данного числа = " + third);    
     }
 }
-
-ExtractFalse(n1);*/
+FindThirdDigit();
 
 //Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 //6 -> да
